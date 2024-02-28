@@ -84,7 +84,7 @@ public class cardHolder
         {
             Console.WriteLine("How much would you like to deposit: ");
             double deposit = double.Parse(Console.ReadLine());
-            currentUser.setBalance(deposit);
+            currentUser.setBalance(currentUser.getBalance() + deposit);
             Console.WriteLine("Thank you for depositing, Your new balance is: " + currentUser.getBalance());
         }
 
@@ -119,8 +119,71 @@ public class cardHolder
         cardHolders.Add(new cardHolder("883928776182",3132,"Goldwin","Meyer",120.23));
         cardHolders.Add(new cardHolder("918287273782",0992,"Rajitha","Malik",1230.33));
 
+        Console.WriteLine("Welcome to EZ ATM");
+        Console.WriteLine("Please insert your debit card: ");
+        string debitCardNum = "";
+        cardHolder currentUser;
 
+        while (true)
+        {
+            try
+            {
+                debitCardNum = Console.ReadLine();
+                currentUser = cardHolders.FirstOrDefault(a=>a.cardNum == debitCardNum);
 
+                if(currentUser != null) { break; }
+                else
+                {
+                    Console.WriteLine("Card not recognized. Please try again.");
+                }
+            }
+            catch { 
+                    Console.WriteLine("Card not recognized. Please try again.");
+            }
+        }
+
+        Console.WriteLine("Please enter your pin: ");
+        int userPin = 0;
+
+        while (true)
+        {
+            try
+            {
+                userPin = int.Parse(Console.ReadLine());
+                if (currentUser.getPin() == userPin) { break; }
+                else
+                {
+                    Console.WriteLine("Incorrect Pin. Please try again.");
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Incorrect Pin. Please try again.");
+            }
+        }
+
+        Console.WriteLine("Welcome " + currentUser.getFirstName());
+        int option = 0;
+        do
+        {
+            printOptions();
+            try
+            {
+                option = int.Parse(Console.ReadLine()) ;    
+            }
+            catch
+            {
+
+            }
+
+            if (option == 1) { deposit(currentUser); }
+            if (option == 2) { withdraw(currentUser); }
+            if (option == 3) { balance(currentUser); }
+            if (option == 4) { break; }
+
+        }
+        while (option != 4);
+        Console.WriteLine("Thank you! have a nice day!");
     }
 
 }

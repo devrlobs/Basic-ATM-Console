@@ -1,0 +1,15 @@
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\bin\Debug\net8.0\ATM-Console-Basic.exe
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\bin\Debug\net8.0\ATM-Console-Basic.deps.json
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\bin\Debug\net8.0\ATM-Console-Basic.runtimeconfig.json
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\bin\Debug\net8.0\ATM-Console-Basic.dll
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\bin\Debug\net8.0\ATM-Console-Basic.pdb
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.AssemblyInfoInputs.cache
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.AssemblyInfo.cs
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.csproj.CoreCompileInputs.cache
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.sourcelink.json
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.dll
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\refint\ATM-Console-Basic.dll
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.pdb
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ATM-Console-Basic.genruntimeconfig.cache
+C:\Users\actro\Documents\GitHub\Basic-ATM-Console\ATM-Console-Basic\ATM-Console-Basic\obj\Debug\net8.0\ref\ATM-Console-Basic.dll
